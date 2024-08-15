@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,*:before, *:after {
+
+    box-sizing: border-box ; 
+    padding: 0 ;
+    margin: 0 ;  
+    font-family: Poppins;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    background-color: #003135;
+    color: #e8f0e4;
+    padding: 30px;
+    flex:1;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.my_photo img{
+    border: 10px solid #afdde5;
+    border-radius:20px;
+    width: 800px;
+    flex:1;
+}
+
+.bio{
+    display: flex;
+    background-color: #024950;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    flex:1;
+
+}
+
+.hero{
+    color: #e8f0e4;
+    width: 400px;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.hero span.hi{
+    font-size: 70px;
+    /* color: #ed7845; */
+    animation: color_change 3s infinite ease-in-out;
+}
+
+@keyframes color_change {
+    0% { color: rgb(206, 28, 28); }
+    50% { color: rgb(236, 224, 57); }
+    75% { color: #ed7845; }
+    100% { color: rgb(206, 28, 28); }
+}
+
+.joel{
+    font-size: 70px;
+}
+
+button{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #afdde5;
+    transition-duration: 0.4s;
+    background-color: #003135;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: #024950; 
+    color: white;
+}
+
+.photo_part{
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    width:fit-content;
+    padding: 25px 25px;
+    height:600px;
+    background-color:#afdde5 ;
+    border-radius: 10px;
+    text-align: center;
+}
+.photo_box img{
+    border:15px solid #141619;
+    width: 600px;
+    border-radius: 15px;
+    
+}
+
+.text{
+    font-weight:300;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.contact{
+    height: 500px;
+    background-color:#024950;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_box{
+    font-size:50px;
+}
+.contact img{
+    width:70px;
+
+}
+
+.icons{
+    display: flex;
+    gap:40px;
+    margin-top: 70px;
+}
+
+.glow:hover{
+    opacity:0.3;
+}   
